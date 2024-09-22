@@ -3,13 +3,13 @@
 import React from 'react';
 import Typed from 'typed.js';
 
-function TypeWriter( { text="Example Text",  speed = 50}:any) {
+function TypeWriter( { text = "Example Text", speed = 50 } ) {
   // Create reference to store the DOM element containing the animation
   const el = React.useRef(null);
 
   React.useEffect(() => {
     const typed = new Typed(el.current, {
-      strings: text,
+      strings: [text], // Wrap text in an array
       typeSpeed: speed,
       backSpeed: 50,
       backDelay: 600,
@@ -20,7 +20,7 @@ function TypeWriter( { text="Example Text",  speed = 50}:any) {
       // Destroy Typed instance during cleanup to stop animation
       typed.destroy();
     };
-  }, []);
+  }, []); // Add text and speed as dependencies
 
   return (
     <div className="App">
@@ -29,4 +29,4 @@ function TypeWriter( { text="Example Text",  speed = 50}:any) {
   );
 }
 
-export default TypeWriter
+export default TypeWriter;
