@@ -1,5 +1,11 @@
 import Background from "@/components/Background";
+import type { Metadata } from "next";
 import TypeWriter from "@/components/TypeWriter";
+
+export const metadata: Metadata = {
+  title: "Home",
+  description: "Home Page",
+};
 
 export default function Home() {
   return (

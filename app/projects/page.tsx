@@ -1,5 +1,11 @@
 import React from 'react'
+import { Metadata } from 'next';
 import Background from '@/components/Background'
+
+export const metadata: Metadata = {
+    title: "Projects",
+    description: "Projects Page",
+};
 
 function About() {
     return (
