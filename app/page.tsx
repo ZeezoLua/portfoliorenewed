@@ -16,7 +16,7 @@ export default function Home() {
           <h1 className="font-black text-3xl md:text-8xl drop-shadow-2xl text-[#FADFA1] text-center hover:scale-105 hover:-translate-y-1 transition-all">Ezz <br /> Mohamed</h1>
         </div>
         <div className="flex justify-center items-center rounded-full border-2 border-[#FADFA1] py-4 px-12 backdrop-blur-sm w-96 hover:scale-105 hover:-translate-y-1 transition-all">
-          <TypeWriter text={["I'm a ^500 <b>Programmer</b>", "I'm a ^500 <b>Developer</b>", "I'm a ^500 <b>Beer Enjoyer</b>"]} />
+          <TypeWriter text={["I'm a ^500 <b>Programmer</b>", "I'm a ^500 <b>Design Artist</b>", "I'm a ^500 <b>Software Engineer</b>"]} />
         </div>
       </main>
     </>
