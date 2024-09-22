@@ -12,6 +12,8 @@ export default function Background() {
       sizes="100vw"
       style={{
         objectFit: 'cover',
+        objectPosition: 'center',
+        zIndex: '-10',
       }}
     />
   )

@@ -1,9 +1,8 @@
 import type { Metadata } from "next";
 import { Inter } from "next/font/google";
 const inter = Inter({ subsets: ['latin'] })
-import Image from "next/image";
-import background from '../public/Mountains.jpg'
 import "./globals.css";
+import Navbar from "@/components/Navbar";
 
 export const metadata: Metadata = {
   title: "Ezz Mohamed",
@@ -20,6 +19,7 @@ export default function RootLayout({
       <body
         className={`${inter.className} antialiased`}
       >
+        <Navbar />
         {children}
       </body>
     </html>

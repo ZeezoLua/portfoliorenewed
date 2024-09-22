@@ -1,12 +1,18 @@
-import Link from "next/link";
-import Navbar from "@/components/Navbar";
 import Background from "@/components/Background";
+import TypeWriter from "@/components/TypeWriter";
 
 export default function Home() {
   return (
     <>
-    <Background />
-    <Navbar />
+      <Background />
+      <main className="w-screen flex justify-start items-center h-[calc(100vh-72px)] flex-col gap-12 py-12">
+        <div className="flex justify-center items-center">
+          <h1 className="font-black text-3xl md:text-8xl drop-shadow-2xl text-[#FADFA1] text-center hover:scale-105 hover:-translate-y-1 transition-all">Ezz <br /> Mohamed</h1>
+        </div>
+        <div className="flex justify-center items-center rounded-full border-2 border-[#FADFA1] py-4 px-12 backdrop-blur-sm w-96 hover:scale-105 hover:-translate-y-1 transition-all">
+          <TypeWriter text={["I'm a ^500 <b>Programmer</b>", "I'm a ^500 <b>Developer</b>", "I'm a ^500 <b>Beer Enjoyer</b>"]} />
+        </div>
+      </main>
     </>
   );
 }
