@@ -18,7 +18,7 @@ function About() {
                 <div className="flex justify-center items-center rounded-full border-2 border-[#FADFA1] py-4 px-12 backdrop-blur-sm w-96 hover:scale-105 hover:-translate-y-1 gap-4 transition-all">
                     <a target='_blank' className='hover:underline decoration-wavy text-white hover:text-emerald-400 hover:scale-105 hover:-translate-y-1 transition-all duration-300' href="https://zeezolua.github.io/AllCursors/">All Cursors</a>
                     -
-                    <a target='_blank' className='hover:underline decoration-wavy text-white hover:text-emerald-400 hover:scale-105 hover:-translate-y-1 transition-all duration-300' href="https://zeezolua.github.io/Introduction/">Rizz</a>
+                    <a target='_blank' className='hover:underline decoration-wavy text-white hover:text-emerald-400 hover:scale-105 hover:-translate-y-1 transition-all duration-300' href="https://github.com/ZeezoLua/Portfolio1">Portfolio1</a>
                     -
                     <a target='_blank' className='hover:underline decoration-wavy text-white hover:text-emerald-400 hover:scale-105 hover:-translate-y-1 transition-all duration-300' href="https://zeezolua.github.io/DaisyUIProject/">DaisyUI</a>
                 </div>
