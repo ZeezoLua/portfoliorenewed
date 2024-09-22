@@ -10,6 +10,6 @@ This is my portfolio made from scratch with no components from any external ui l
 - Animations for page changing
 
 # What i used
-- Next.js
-- Typed.js for *typewriter* effect on the home page
-- gsap for the *page transitions*
+- [Next.js](https://nextjs.org)
+- [Typed.js](https://github.com/mattboldt/typed.js/) for *typewriter* effect on the home page
+- [gsap](https://gsap.com/) for the *page transitions*
